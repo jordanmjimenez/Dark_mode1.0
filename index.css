@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+}
+
+body.dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    p {
+      display: none;
+    }
+  }
